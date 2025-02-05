@@ -1,0 +1,17 @@
+.todo-item {
+  width: 300px;
+  height: 34px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 2rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.trash-Btn {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  color: red;
+}
