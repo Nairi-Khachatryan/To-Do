@@ -2,7 +2,7 @@ import React from 'react';
 import './footer.css'
 const ToDoFooter = ({ todos, handleClear }) => {
 
-  const isCompleteCount = todos.filter((todo) => todo.isComplete);
+   const isCompleteCount = todos.filter((todo) => todo.isComplete);
   return (
     <div className='todo-footer' >
       <span className='completed-screen' >
